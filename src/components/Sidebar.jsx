@@ -3,7 +3,7 @@ const Sidebar = () => {
   return (
     <section className="border-r border-white/20 w-96 flex flex-col gap-6 justify-start items-center p-4">
       <div className="flex items-center mt-4">
-        <img className="w-full" src="/public/vayuzLogo.svg" alt="Logo" />
+        <img className="w-full" src="/vayuzLogo.svg" alt="Logo" />
       </div>
 
       <button className="mt-4 relative inline-flex items-center justify-center px-[1px] py-[1px] text-white font-medium rounded-full bg-[#131313] before:absolute before:inset-0 before:rounded-full before:p-[1.5px] before:bg-[conic-gradient(from_90deg_at_50%_50%,#07A7CD_0deg,#FC0600_62.37deg,#09D809_173.97deg,#FF6600_255.65deg,#F60163_290.5deg,#07A7CD_360deg)] before:content-['']">
