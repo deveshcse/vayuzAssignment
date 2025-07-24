@@ -1,5 +1,6 @@
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
+
 const services = [
   {
     title: "Flutter App Development",
@@ -80,7 +81,6 @@ const services = [
   },
 ];
 
-
 const ServiceSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -90,7 +90,7 @@ const ServiceSection = () => {
 
   return (
     <section className="bg-[#131313] px-4 text-white py-16">
-      <div className=" mx-auto flex flex-col items-center text-center mb-12">
+      <div className="mx-auto flex flex-col items-center text-center mb-12 animate-fadeInUp">
         <h2 className="text-4xl font-semibold mb-2">
           Our Dynamic Services Suite!
         </h2>
@@ -105,22 +105,21 @@ const ServiceSection = () => {
       </div>
 
       <div className="w-full flex flex-col md:grid grid-cols-5 space-x-5">
-        <div className=" col-span-3">
-            {services.map((service, index) => (
-                <AccordionItem
-                key={index}
-                title={service.title}
-                content={service.content}
-                isOpen={activeIndex === index}
-                onClick={() => handleToggle(index)}
-                />
-            ))}
+        <div className="col-span-3 animate-fadeInUp delay-[0.1s]">
+          {services.map((service, index) => (
+            <AccordionItem
+              key={index}
+              title={service.title}
+              content={service.content}
+              isOpen={activeIndex === index}
+              onClick={() => handleToggle(index)}
+            />
+          ))}
         </div>
-        <div className=" col-span-2 ">
-            <img src="/serviceImage.svg" alt="serviceImage" />
+        <div className="col-span-2 animate-fadeInUp delay-[0.2s]">
+          <img src="/serviceImage.svg" alt="serviceImage" />
         </div>
       </div>
-     
     </section>
   );
 };
