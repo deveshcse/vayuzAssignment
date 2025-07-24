@@ -8,6 +8,17 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+@layer utilities {
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-quicksand {
+    font-family: 'Quicksand', sans-serif;
+  }
+}
+
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

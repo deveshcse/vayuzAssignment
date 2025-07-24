@@ -3,9 +3,10 @@ import group20363 from "/public/Group20363.svg";
 import group20364 from "/public/Group20364.svg";
 const HeroSection = () => {
   return (
-    <section className="bg-[#131313]">
+    <section className="">
       {/* Background Gradient */}
-      <div className="bg-radial-[at_100%_50%] from-red-950 to-neutral-900 to-50% w-full h-full">
+
+      {/* <div className="bg-radial-[at_95%_50%] from-[#00ffd5]/20 to-[#131313] to-50% w-full h-full"> */}
         <div className="text-white py-16 md:mx-4 flex flex-col md:flex-row items-center justify-start gap-4 relative">
           {/* Left: Text Area */}
           <div className="col-span-2">
@@ -22,7 +23,7 @@ const HeroSection = () => {
           </div>
 
           {/* Right: Image Area */}
-          <div className="col-span-3 relative flex justify-center items-center  w-xl">
+          <div className="col-span-3 relative flex justify-center items-center  w-lg">
             {/* Main Image */}
             <img
               src={rectangle3}
@@ -31,21 +32,21 @@ const HeroSection = () => {
             />
 
             {/* Top Right Small Image */}
-            <img
+             <img
               src={group20363}
               alt="Code snippet 1"
-              className="absolute top-36 -right-32 w-72 rounded-md shadow-md"
+              className="absolute top-36 -right-32 w-76 rounded-md shadow-md"
             />
 
             {/* Bottom Left Small Image */}
             <img
               src={group20364}
               alt="Code snippet 2"
-              className="absolute -bottom-20 right-0 w-72 rounded-md shadow-md"
-            />
+              className="absolute -bottom-20 right-0 w-76 rounded-md shadow-md"
+            /> 
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 };
