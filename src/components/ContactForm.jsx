@@ -19,7 +19,6 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Submitted:", formData);
-    // handle API call or toast here
   };
 
   return (

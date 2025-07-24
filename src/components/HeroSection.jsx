@@ -2,11 +2,9 @@
 const HeroSection = () => {
   return (
     <section className="">
-      {/* Background Gradient */}
 
       {/* <div className="bg-radial-[at_95%_50%] from-[#00ffd5]/20 to-[#131313] to-50% w-full h-full"> */}
         <div className="text-white py-16 md:mx-4 flex flex-col md:flex-row items-center justify-start gap-4 relative">
-          {/* Left: Text Area */}
           <div className="col-span-2">
             <h2 className="text-5xl font-bold mb-4">
               Unlock the Potential <br /> of Flutter
@@ -20,23 +18,19 @@ const HeroSection = () => {
             </button>
           </div>
 
-          {/* Right: Image Area */}
           <div className="col-span-3 relative flex justify-center items-center  w-lg">
-            {/* Main Image */}
             <img
               src="/Rectangle3.svg"
               alt="Main code block"
               className="rounded-lg shadow-lg w-full object-contain"
             />
 
-            {/* Top Right Small Image */}
              <img
               src="/Group20363.svg"
               alt="Code snippet 1"
               className="absolute top-36 -right-32 w-76 rounded-md shadow-md"
             />
 
-            {/* Bottom Left Small Image */}
             <img
               src="Group20364.svg"
               alt="Code snippet 2"
@@ -44,7 +38,6 @@ const HeroSection = () => {
             /> 
           </div>
         </div>
-      {/* </div> */}
     </section>
   );
 };
