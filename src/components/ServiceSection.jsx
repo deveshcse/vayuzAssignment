@@ -1,6 +1,5 @@
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
-import serviceImage from "../../public/serviceImage.svg"; 
 const services = [
   {
     title: "Flutter App Development",
@@ -118,7 +117,7 @@ const ServiceSection = () => {
             ))}
         </div>
         <div className=" col-span-2 ">
-            <img src={serviceImage} alt="serviceImage" />
+            <img src="/serviceImage.svg" alt="serviceImage" />
         </div>
       </div>
      

@@ -1,6 +1,4 @@
-import rectangle3 from "/Rectangle3.svg";
-import group20363 from "/public/Group20363.svg";
-import group20364 from "/public/Group20364.svg";
+
 const HeroSection = () => {
   return (
     <section className="">
@@ -26,21 +24,21 @@ const HeroSection = () => {
           <div className="col-span-3 relative flex justify-center items-center  w-lg">
             {/* Main Image */}
             <img
-              src={rectangle3}
+              src="/Rectangle3.svg"
               alt="Main code block"
               className="rounded-lg shadow-lg w-full object-contain"
             />
 
             {/* Top Right Small Image */}
              <img
-              src={group20363}
+              src="/Group20363.svg"
               alt="Code snippet 1"
               className="absolute top-36 -right-32 w-76 rounded-md shadow-md"
             />
 
             {/* Bottom Left Small Image */}
             <img
-              src={group20364}
+              src="Group20364.svg"
               alt="Code snippet 2"
               className="absolute -bottom-20 right-0 w-76 rounded-md shadow-md"
             /> 

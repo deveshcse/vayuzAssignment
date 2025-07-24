@@ -1,4 +1,3 @@
-import rect43 from "../../public/rect43.svg"
 const Sidebar = () => {
   return (
     <section className="border-r border-white/20 w-96 flex flex-col gap-6 justify-start items-center p-4">
@@ -24,7 +23,7 @@ const Sidebar = () => {
       </div>
 
       <div className="flex flex-col gap-2 mt-56 items-center text-left text-white text-sm">
-        <img src={rect43} alt="image" />
+        <img src="/rect43.svg" alt="image" />
         <span className="">Lorem ipsum dolor sit <br /> amet consectetur. Enim <br /> tempor posuere rutrum.</span>
       </div>
 
