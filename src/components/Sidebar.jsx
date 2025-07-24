@@ -1,6 +1,6 @@
 const Sidebar = () => {
   return (
-    <section className="border-r border-white/20 w-96 flex flex-col gap-6 justify-start items-center p-4">
+    <section className="bg-[#131313] border-r border-white/20 w-96 flex flex-col gap-6 justify-start items-center p-4">
       <div className="flex items-center mt-4">
         <img className="w-full" src="/vayuzLogo.svg" alt="Logo" />
       </div>

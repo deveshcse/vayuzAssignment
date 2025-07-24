@@ -3,7 +3,7 @@ import React from "react";
 
 const HistorySection = () => {
   return (
-    <section className="w-full mx-auto flex flex-col md:grid grid-cols-3 items-center justify-between p-4 mt-10">
+    <section className="bg-[#131313] w-full mx-auto flex flex-col md:grid grid-cols-3 items-center justify-between p-4 mt-10">
       <div className="col-span-1 text-left text-white">
         <h2 className="text-3xl font-semibold">Flutter's Dawn</h2>
         <p className="mt-2 text-sm text-gray-400">History of Flutter</p>

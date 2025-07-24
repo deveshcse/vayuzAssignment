@@ -4,7 +4,7 @@ import Layout from "./components/Layout";
 
 function App() {
   return (
-    <div className="bg-red-400 max-w-screen min-h-screen ">
+    <div className="bg-[#131313] max-w-screen min-h-screen ">
       <Layout/>
     </div>
   );

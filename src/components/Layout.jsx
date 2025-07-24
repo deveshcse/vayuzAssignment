@@ -9,7 +9,7 @@ import ContactSection from "./ContactSection";
 
 const Layout = () => {
   return (
-    <div className="bg-[#131313] flex  h-full w-full ">
+    <div className="flex  h-full w-full ">
       <Sidebar />
       <div className="w-full">
         <Header />
@@ -24,3 +24,6 @@ const Layout = () => {
 };
 
 export default Layout;
+
+
+//bg-[#131313]

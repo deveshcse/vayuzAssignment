@@ -22,7 +22,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="col-span-2 flex-1 text-white max-w-md">
+    <div className="bg-[#131313] col-span-2 flex-1 text-white max-w-md">
       <h2 className="text-right text-5xl md:text-8xl font-serif font-semibold leading-tight mb-8 font-playfair">
         Connect <br /> With Us
       </h2>

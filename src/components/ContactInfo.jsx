@@ -1,6 +1,6 @@
 const ContactInfo = () => {
   return (
-    <div className="col-span-3 text-white flex flex-col gap-30">
+    <div className="bg-[#131313] col-span-3 text-white flex flex-col gap-30">
       <div className="mt-10 flex gap-4 mb-8">
         <h4>Events</h4>
         <h4>Gen AI</h4>

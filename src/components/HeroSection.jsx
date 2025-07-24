@@ -4,8 +4,8 @@ const HeroSection = () => {
     <section className="">
 
       {/* <div className="bg-radial-[at_95%_50%] from-[#00ffd5]/20 to-[#131313] to-50% w-full h-full"> */}
-        <div className="text-white py-16 md:mx-4 flex flex-col md:flex-row items-center justify-start gap-4 relative">
-          <div className="col-span-2">
+        <div className="bg-radial-[at_100%_50%] from-[#00ffd5]/10  to-[#131313] to-50%  text-white py-16 md:px-4 flex flex-col md:flex-row items-center justify-start gap-4 relative pb-30">
+          <div className="">
             <h2 className="text-5xl font-bold mb-4">
               Unlock the Potential <br /> of Flutter
             </h2>
@@ -18,7 +18,7 @@ const HeroSection = () => {
             </button>
           </div>
 
-          <div className="col-span-3 relative flex justify-center items-center  w-lg">
+          <div className=" relative flex justify-center items-center  w-lg">
             <img
               src="/Rectangle3.svg"
               alt="Main code block"

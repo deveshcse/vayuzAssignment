@@ -2,7 +2,7 @@ import { Minus, Plus } from 'lucide-react';
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
   return (
-    <div className=" border-gray-700 pb-3 my-6">
+    <div className="bg-[#131313] border-gray-700 pb-3 my-6">
       <button
         onClick={onClick}
         className="w-full flex justify-between items-center text-left text-xl font-semibold text-white focus:outline-none"

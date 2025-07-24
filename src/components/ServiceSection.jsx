@@ -89,7 +89,7 @@ const ServiceSection = () => {
   };
 
   return (
-    <section className="px-4 text-white py-16">
+    <section className="bg-[#131313] px-4 text-white py-16">
       <div className=" mx-auto flex flex-col items-center text-center mb-12">
         <h2 className="text-4xl font-semibold mb-2">
           Our Dynamic Services Suite!
